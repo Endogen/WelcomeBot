@@ -171,7 +171,7 @@ class TelegramBot:
 
         try:
             with open(path, "r", encoding="utf8") as f:
-                welcome = f.read().replace("{{user}}", user)
+                welcome = f.read().replace("{{user}}", utl.esc_md(user))
                 bot.send_message(message.chat_id, welcome, ParseMode.MARKDOWN)
         except Exception as e:
             logging.error(f"Couldn't load welcome message: {e}")
