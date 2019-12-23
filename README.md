@@ -1,5 +1,5 @@
-# TrxBetBot
-TrxBetBot is a Telegram bot created by @endogen for @Wikioshi.
+# WelcomeBot
+WelcomeBot is a Telegram bot created by @endogen for @Wikioshi.
 
 ## Overview
 The bot is build around the [python-telegram-bot](https://github.com/python-telegram-bot/python-telegram-bot) module and is polling based. [Webhook mode](https://github.com/python-telegram-bot/python-telegram-bot/wiki/Webhooks) is implemented but untested.
@@ -103,40 +103,9 @@ which will kill __every__ Python 3.7 process that is currently running.
 ### Available commands
 ##### Bot
 ```
-/tutorial - Learn how to use this bot
-/feedback - Send us your feedback
-/backup - Backup whole bot folder
-/help - Show all available commands
 /log - Download current logfile
 /restart - Restart the bot
 /shutdown - Shutdown the bot
-```
-
-##### Gambling
-```
-/bet - Bet TRX on last char of block hash
-```
-
-##### Wallet
-```
-/balance - Show balance of your TRX wallet
-/deposit - Deposit TRX to your bot wallet
-/send - Send TRX from your bot wallet
-/tip - Tip another Telegram user with TRX
-/withdraw - Withdraw all TRX from your bot wallet
-```
-
-If you want to show a list of available commands as you type, open a chat with Telegram bot [@BotFather](https://t.me/BotFather) and execute the command `/setcommands`. Then choose the bot you want to activate the list for and after that send the list of commands with description. Something like this:
-
-```
-tutorial - Learn how to use this bot
-balance - Show balance of your TRX wallet
-bet - Bet TRX on last character of block hash
-deposit - Deposit TRX to your bot wallet
-feedback - Send us your feedback
-send - Send TRX from your bot wallet
-tip - Tip another Telegram user with TRX
-withdraw - Withdraw all TRX from your wallet
 ```
 
 ### Plugins
