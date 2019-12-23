@@ -1,0 +1,1 @@
+Hey {{user}}, welcome to this Group! Feel free to tell us something about you 😊
