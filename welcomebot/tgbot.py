@@ -180,7 +180,7 @@ class TelegramBot:
         try:
             message.delete()
         except Exception as e:
-            exit(f"Not possible to delete 'joined' message. Maybe bot isn't an admin? - {e}")
+            logging.warning(f"Not possible to delete 'joined' message. Maybe bot isn't an admin? - {e}")
 
     def _update_plugin(self, bot, update):
         """
